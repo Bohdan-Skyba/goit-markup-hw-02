@@ -1,0 +1,25 @@
+/* base style */
+a {
+  text-decoration: none;
+}
+/* logo */
+/* .logo {
+  font-family: ;
+  font-weight: ;
+  font-size: ;
+  line-height: ;
+  letter-spacing: ;
+  color: yellow;
+} */
+.web {
+  columns: black;
+}
+/* end color */
+
+/* navigation */
+/* шрифты качаем */
+.fonts1 {
+  font-family: Raleway;
+  font-size: large;
+  font-weight: 400;
+}
