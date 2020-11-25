@@ -21,6 +21,8 @@ hero-text-color: #ffffff;
   --background-team: #f5f4fa;
   --logo2-color: #000000;
   --hero-text-color: #ffffff;
+  --font-base: Raleway, sans-serif;
+  --font-base2: Roboto, sans-serif;
 }
 a {
   text-decoration: none;
@@ -36,7 +38,7 @@ li {
 /* logo */
 .fonts-logo1 {
   color: var(--logo1-active-link-text-color);
-  font-family: Raleway, sans-serif;
+  font-family: var(--font-base);
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -45,7 +47,7 @@ li {
 }
 .fonts-logo2 {
   color: var(--logo2-color);
-  font-family: Raleway, sans-serif;
+  font-family: var(--font-base);
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -64,7 +66,7 @@ li {
 }
 .navigation-list-link {
   color: var(--feature-title-text-color);
-  font-family: Roboto, sans-serif;
+  font-family: var(--font-base2);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -75,7 +77,7 @@ li {
 /* address */
 .heder-mail {
   color: var(--logo1-active-link-text-color);
-  font-family: Roboto, sans-serif;
+  font-family: var(--font-base2);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -84,7 +86,7 @@ li {
 }
 .header-tel {
   color: var(--feature-tel-text-color);
-  font-family: Roboto, sans-serif;
+  font-family: var(--font-base2);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -95,7 +97,7 @@ li {
 /* Hero */
 .hero-title {
   color: var(--hero-text-color);
-  font-family: Roboto, sans-serif;
+  font-family: var(--font-base2);
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -118,14 +120,13 @@ li {
 
 .butoon-hero {
   color: var(--background-base-nav-button-text);
-  font-family: Roboto, sans-serif;
+  font-family: var(--font-base2);
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.875;
   width: 200px;
   height: 50px;
-
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 6px;
@@ -227,7 +228,7 @@ li {
 /* logo */
 .fonts-footer-logo2{
   color: var(--background-base-nav-button-text);
-  font-family: Raleway, sans-serif;
+  font-family: var(--font-base);
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -258,11 +259,21 @@ li {
 /* portfolio */
 /* h1 text */
 .title-page-text{
-  color: rgba(0,0, 0,0.0);
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
+
 .butoon-menu button {
   color: var(--feature-title-text-color);
-  font-family: Roboto, sans-serif;
+  font-family: var(--font-base2);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -271,9 +282,37 @@ li {
   letter-spacing: 0.03em;
   background: #F5F4FA;
   border-radius: 4px;
-  
 }
-.butoon-menu :hover,
-.butoon-menu :focus{
 
+.butoon-menu button:hover,
+.butoon-menu button:focus{
+  color: var(--background-base-nav-button-text);
+  background-color: var(--logo1-active-link-text-color);
 }
+
+.portfolio-title {
+  color: var(--feature-title-text-color);
+  font-family: var(--font-base2);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+
+.portfolio-p {
+  color: var(--feature-tel-text-color);
+  font-family: var(--font-base2);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+.portfolio-title:hover,
+.portfolio-title:focus,
+.portfolio-p:hover,
+.portfolio-p:focus
+{
+  color: var(--logo1-active-link-text-color)
+};
