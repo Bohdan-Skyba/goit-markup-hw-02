@@ -1,12 +1,13 @@
 /* Color page 
 background-base-nav-button-text :  #FFFFFF;
-background-hero : #2F303A;
+background-hero-footer : #2F303A;
 background-service-feature : #FFFFFF;
 background-team : #F5F4FA;
 logo1-active-link-text-color:#2196f3;
 feature-tel-text-color:#757575
 feature-title-text-color: #212121
 hero-text-color: #ffffff;
+
 
 */
 
@@ -15,7 +16,7 @@ hero-text-color: #ffffff;
   --feature-tel-text-color: #757575;
   --feature-title-text-color: #212121;
   --logo1-active-link-text-color: #2196f3;
-  --background-hero: #2f303a;
+  --background-hero-footer: #2f303a;
   --background-base-nav-button-text: #ffffff;
   --background-team: #f5f4fa;
   --logo2-color: #000000;
@@ -53,7 +54,12 @@ li {
 }
 
 .navigation-list-link:hover,
-.navigation-list-link:focus {
+.navigation-list-link:focus, 
+.heder-mail:hover,
+.heder-mail:focus,
+.header-tel:hover,
+.header-tel:focus
+{
   color: var(--logo1-active-link-text-color);
 }
 .navigation-list-link {
@@ -68,7 +74,7 @@ li {
 
 /* address */
 .heder-mail {
-  columns: var(--logo1-active-link-text-color);
+  color: var(--logo1-active-link-text-color);
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -105,7 +111,7 @@ li {
   } */
 
 .hero-background {
-  background-color: var(--background-hero);
+  background-color: var(--background-hero-footer);
   width: 1600px;
   height: 600px;
 }
@@ -212,3 +218,62 @@ li {
 /* .team-carrd-position:hover,
 .team-carrd-position:focus{
 } */
+/* footer */
+.footer-background{
+  background-color: var(--background-hero-footer);
+  width: 1600px;
+  height: 252px;
+}
+/* logo */
+.fonts-footer-logo2{
+  color: var(--background-base-nav-button-text);
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+}
+
+/* footer address */
+.footer-map-address-mail-tel{
+  color: var(--background-base-nav-button-text);
+  font-family: Roboto,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em
+}
+.footer-mail-tel-address{
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+/* portfolio */
+/* h1 text */
+.title-page-text{
+  color: rgba(0,0, 0,0.0);
+}
+.butoon-menu button {
+  color: var(--feature-title-text-color);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: #F5F4FA;
+  border-radius: 4px;
+  
+}
+.butoon-menu :hover,
+.butoon-menu :focus{
+
+}
