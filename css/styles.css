@@ -56,16 +56,15 @@ li {
 }
 
 .navigation-list-link:hover,
-.navigation-list-link:focus, 
+.navigation-list-link:focus,
 .heder-mail:hover,
 .heder-mail:focus,
 .header-tel:hover,
-.header-tel:focus
-{
+.header-tel:focus {
   color: var(--logo1-active-link-text-color);
 }
-  
-.accent-color{
+
+.accent-color {
   color: var(--logo1-active-link-text-color);
 }
 
@@ -146,11 +145,11 @@ li {
 /* feature */
 .feauture-title-text {
   color: var(--feature-title-text-color);
-  font-family: Roboto,sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 1.143
+  line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -161,7 +160,7 @@ li {
 
 .feauture-text {
   color: var(--feature-tel-text-color);
-  font-family: Roboto,sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -174,9 +173,9 @@ li {
 } */
 
 /* service */
-.servse-title-text{
+.servse-title-text {
   color: var(--feature-title-text-color);
-  font-family: Roboto,sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -188,9 +187,9 @@ li {
 } */
 
 /* our team */
-.team-title-text{
+.team-title-text {
   color: var(--feature-title-text-color);
-  font-family: Roboto,sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -201,9 +200,9 @@ li {
 .team-title-text:focus{
 } */
 
-.team-carrd-title-text{
+.team-carrd-title-text {
   color: var(--feature-title-text-color);
-  font-family: Roboto,sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -214,9 +213,9 @@ li {
 .team-carrd-title-text:focus{
 } */
 
-.team-carrd-position{
+.team-carrd-position {
   color: var(--feature-tel-text-color);
-  font-family: Roboto,sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -227,13 +226,13 @@ li {
 .team-carrd-position:focus{
 } */
 /* footer */
-.footer-background{
+.footer-background {
   background-color: var(--background-hero-footer);
   width: 1600px;
   height: 252px;
 }
 /* logo */
-.fonts-footer-logo2{
+.fonts-footer-logo2 {
   color: var(--background-base-nav-button-text);
   font-family: var(--font-base);
   font-style: normal;
@@ -244,18 +243,18 @@ li {
 }
 
 /* footer address */
-.footer-map-address-mail-tel{
+.footer-map-address-mail-tel {
   color: var(--background-base-nav-button-text);
-  font-family: Roboto,sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.714;
-  letter-spacing: 0.03em
+  letter-spacing: 0.03em;
 }
-.footer-mail-tel-address{
+.footer-mail-tel-address {
   color: rgba(255, 255, 255, 0.6);
-  font-family: Roboto,sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -265,17 +264,17 @@ li {
 
 /* portfolio */
 /* h1 text */
-.title-page-text{
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+.title-page-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .butoon-menu button {
@@ -287,12 +286,12 @@ li {
   line-height: 1.625;
   text-align: center;
   letter-spacing: 0.03em;
-  background: #F5F4FA;
+  background: #f5f4fa;
   border-radius: 4px;
 }
 
 .butoon-menu button:hover,
-.butoon-menu button:focus{
+.butoon-menu button:focus {
   color: var(--background-base-nav-button-text);
   background-color: var(--logo1-active-link-text-color);
 }
@@ -307,7 +306,6 @@ li {
   letter-spacing: 0.06em;
 }
 
-
 .portfolio-p {
   color: var(--feature-tel-text-color);
   font-family: var(--font-base2);
@@ -319,7 +317,6 @@ li {
 .portfolio-title:hover,
 .portfolio-title:focus,
 .portfolio-p:hover,
-.portfolio-p:focus
-{
-  color: var(--logo1-active-link-text-color)
-};
+.portfolio-p:focus {
+  color: var(--logo1-active-link-text-color);
+}
